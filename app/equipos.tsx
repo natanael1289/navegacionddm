@@ -20,11 +20,7 @@ export default function EquiposScreeb() {
                 ItemSeparatorComponent={() => <View style={styles.separator} />}
                 ListHeaderComponent={
                     <>
-                        <Text style={styles.brand}>SIGMA</Text>
-                        <Text style={styles.title}>Inventario con FlatList</Text>
-                        <Text style={styles.description}>
-                            La lista administra eficientemente los elementos visibles.
-                        </Text>
+                        <Text style={styles.title}>Equipos</Text>                        
                     </>
                 }
                 ListEmptyComponent={

@@ -21,13 +21,11 @@ export function TarjetaEquipo({ equipo }: TarjetaEquipoProps) {
                     <Text style={styles.name}>{equipo.nombre}</Text>
                     <Text style={styles.detail}>{equipo.categoria}</Text>
                     <Text style={styles.location}>{equipo.ubicacion}</Text>
-                </View>
-                <View style={[styles.badge, { backgroundColor: coloresEstado[equipo.estado] }]}>
-                    <Text style={styles.badgeText}>{equipo.estado}</Text>
+                </View>                
+                <View>
                     <Button title="Detalle" onPress={() => router.push({
                         pathname: '/equipos/[id]',
                         params: { id: equipo.id },})} />
-
                 </View>
             </View>
         </View>
