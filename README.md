@@ -163,7 +163,7 @@ Algunos de los cambios realizados fueron:
 4. Detalle agregado.
 5. Agregado estilo de detalle equipo.
 6. Formulario de nueva tarea y Readme agregado.
-
+7. Capturas agregadas.
 
 ## Repositorio
 
